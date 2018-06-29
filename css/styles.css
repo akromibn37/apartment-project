@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  color: #fff;  
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+  background: url('../picture/body_background3.jpg');
+}
+.welcome{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#welcomebox{
+  display: block;
+  /*border-radius: 50%;*/
+  width: 200px;
+  height: 200px;
+  background-color: #FF3300;
+  margin: auto;
+  text-align: center  
+}
+#welcomebox span{
+  position: relative;
+  top: 50px;
+  text-align: center; 
+  font-size: 1.5em;
+}
+.boxline{
+  display: block;
+  width: 100%;
+  height:20px;
+  background-color: white;
+  position: relative;
+}
+#upbox{   
+  top: 20px;
+}
+#downbox{
+  bottom: -75px;  
+}
+.website{
+  color: black;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#myapartment{
+  width: 100%;
+  height: 500px;
+  margin-top: 0px;
+}
+#linkbox-enpark,#linkbox-kedah{
+  width: 80%;
+  height: 300px;  
+  border: 2px solid black;
+  border-radius: 50%; 
+  position: relative;
+  top: -50px;
+  vertical-align: center;
+  margin: auto;
+  margin-top: 80px;
+  
+}
+#linkbox-enpark:hover{
+  background: url('../picture/apartment-test.jpg') no-repeat;
+  background-position: right;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#linkbox-kedah:hover{
+  background: url('../picture/apartment-test2.jpg') no-repeat;
+  background-position: right;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#linkbox-enpark span,#linkbox-kedah span{
+ /* position: absolute;
+  bottom: -70px;
+  left: 0px;*/
+  position: relative;
+  top: 130px;
+  left: 40px;
+  text-align: center;
+  font-size: 2em; 
+  opacity: 0.6; 
+  width: 100%;
+  color: red;
+  font-weight: bold;
+}
+#linkbox-enpark{
+  background: url('../picture/body_background4.jpg') no-repeat;
+}
+#linkbox-kedah{
+  background: url('../picture/body_background5.jpg') no-repeat;
+}
+a{
+  text-decoration: none!important;
+}

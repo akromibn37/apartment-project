@@ -1,0 +1,223 @@
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #logo-img {
+    position: relative;
+    left: 80px;    
+  }
+  #navbar-logo{
+  	position: relative;
+  	left: 50px;
+  	top: 0px;
+    width: 350px;
+    height: 100px;
+  }
+  .jumbotron{
+  	width: 100%;
+  	padding: 20px;  	
+  }
+  .slide{
+  	height: 525px;
+  	width: 100%;
+  }
+  iframe{
+    height: 325px;
+  }
+  .aboutlogo{
+	position: relative;
+	left: 25%;
+	top: -10px;
+	width: 250px;
+	height: 250px;
+  }
+  #map-tile span{
+  	width: 96%
+  }
+  .promotionslide{
+  	height: 500px;
+  }  
+  .facilitypicture{
+    width: 70%;
+    height: 275px;
+    margin-top: 20px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media screen and (max-width: 767px) {
+  #logo-img {
+    position: relative;
+    left: 100px;
+    width: 120px;
+    height: 120px;    
+  }
+  #navbar-logo{
+  	position: relative;
+  	left: 30px;
+  	top: -10px;
+  	font-size: 1.8em;
+    width: 300px;
+    height: 100px;
+  }
+  #menuheadbutton{
+  	width: 80px;
+  	height: 120px;
+  }
+  .slide{
+  	height: 450px;
+  	width: 100%;
+  }
+  .aboutlogo{
+	position: relative;
+	left: 24%;
+	top: -10px;
+	width: 250px;
+	height: 250px;
+  }
+  iframe{
+    height: 275px;
+  }
+  #map-tile span{
+  	width: 95%
+  }
+  .promotionslide{
+  	height: 450px;
+  }
+  .roomrateslideup{
+	height: 250px;
+	width: 75%;
+	vertical-align: middle;
+  }
+  .roomrateslidedown{
+    height: 150px;
+    width: 90%;
+  }
+  .slider-for1,.slider-for2,.slider-for3{  
+    position: relative;
+    left: 13%;
+    padding: 10px;
+    vertical-align: center;
+    width: 100%;
+    height: 200px;  
+  }
+  .slider-nav1,.slider-nav2,.slider-nav3{
+    margin-bottom: 0px;
+    width: 100%;  
+    position: relative;
+    top: 100px;
+  }
+  .furpic{
+    margin-bottom: 150px;
+  /*background-color: red;*/
+  }
+  .facilitypicture{
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+  #navbar-logo{
+    position: relative;
+    left: 50px;
+    top: -10px;
+    font-size: 1.2em;
+    width: 200px;
+    height: 100px;
+  }
+  #logo-img {
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 100px;    
+  }
+  #menuheadbutton{
+    width: 70px;
+    height: 100px;
+    font-size: 1em;
+  }
+ .slide{
+  	height: 400px;
+  	width: 100%;
+  }
+  iframe{
+    height: 220px;
+    width: 90%;
+  }
+  #map-tile span{
+  	width: 94%
+  }
+  .aboutlogo{
+    position: relative;
+    left: 15%;
+    top: -10px;
+  }
+  .promotionslide{
+  	height: 400px;
+  }
+  .facilitypicture{
+    width: 65%;
+    height: 150px;
+    margin-top: 20px;
+  }
+  #roomratetopic h1{
+    font-size: 1em;
+  }
+}
+@media (max-width: 350px) {
+  body{
+    font-size: 14px;
+  }
+  #topheading{
+    font-size: 0.7em;
+  }
+  #navbar-logo{
+    position: relative;
+    left: 60px;
+    top: -15px;
+    font-size: 1.1em;
+    width: 150px;
+    height: 50px;
+  }
+  #logo-img {
+    position: relative;
+    left: 90px;
+    width: 80px;
+    height: 80px;    
+  }
+  #menuheadbutton{
+    width: 65px;
+    height: 80px;   
+  }
+ .slide{
+    height: 250px;
+    width: 100%;
+  }
+  iframe{
+    height: 175px;
+    width: 90%;
+  }
+   #map-tile span{
+    font-size: 1em;
+    width: 90%
+  }
+  #room-fur-tile,#room-deluxe-tile{
+    height: 175px;
+  }
+  .aboutlogo{
+    position: relative;
+    left: 0px;
+    top: -10px;
+  }
+  .promotionslide{
+    height: 250px;
+  }
+}

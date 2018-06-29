@@ -1,0 +1,521 @@
+body{
+  font-size: 16px;
+  color: #fff;  
+  /*font-family: 'Oxygen', sans-serif;*/
+  /*font-family: "Comic Sans MS","Trirong", cursive, sans-serif;*/
+  font-family: "Julius Sans One","Trirong", cursive, sans-serif;
+  /*font-family: "Courier New", Courier, monospace;*/
+  /*font-family: Georgia, serif;*/
+  box-sizing: border-box;
+  background: white;
+}
+.header_top{
+  display: block;
+  width: 100%;
+  height: 20px;
+  background-color: #0a290a;
+  text-align: center;
+}
+.infotop{
+  position: absolute;
+  right: 40px;
+}
+/*Header*/
+
+.navbar-header{
+  position: relative;
+  left: -90px;
+}
+#header-nav{
+	background-color: #afdb00;  
+  border-color: #afdb00;
+}
+#logo-img{
+  position:relative;
+  left: 110px;
+	width: 180px;
+	height: 180px;
+}
+#navbar-logo{
+  position: relative;
+  left: 100px;
+  top: 20px;
+  width: 550px;
+  height: 50px;
+  font-size: 3em;
+  font-weight: bold;  
+  text-shadow: 1px 3px 1px #222;
+  text-align: center;
+  /*color: #0c329d;*/
+}
+.navbar-brand a{
+  text-decoration: none;
+}
+.navbar-brand a:hover{
+  color: red;
+}
+#nav-list {
+  margin-top: 0px;
+  position: relative;
+  right:-80px;
+  top: 30px;
+  /*height: 100px;*/
+  /*text-shadow: 1px 1px 1px #222;*/
+  text-shadow: 0px 1px 0px #222;
+}
+#nav-list a {
+  color: #4763eb;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:  #FF7F50;
+  /*color: red;*/
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#menuheadbutton{
+  display: block;  
+  /*background-color: #afdb00;*/
+  text-align: center; 
+  border:hidden;
+  width: 100px;
+  height: 180px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 1.5em;
+  text-align: left;
+}
+#menulistheading a{
+  text-decoration : none;
+}
+#menulistheading a:hover{
+  text-decoration : none;
+  color: red;
+}
+#menulistheading{
+  background-color: #f0f8ff;
+}
+#menulistheading:hover{
+  background-color: #afdb00;
+  text-align: center;  
+}
+/*End Header*/
+/*Main content*/
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.jumbotron{
+  height: auto;
+  width: auto;
+}
+.slide{
+  height: 660px;
+  width: 100%;
+}
+.slick-prev:before, .slick-next:before { 
+  /*font-family: "slick"; */
+  font-size: 100px; 
+  line-height: 1; 
+  color: blue; 
+  opacity: 0.75; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}   
+
+.slick-prev:before { content: "‹"; }
+[dir="rtl"] .slick-prev:before { content: "›"; }
+[dir="rtl"] .slick-prev { 
+  left: auto; 
+  top: 70px; 
+  right: -10px; 
+}
+[dir="rtl"] .slick-next { 
+  left: -10px; 
+  top: 70px; 
+  right: auto; 
+}
+.slick-next:before { content: "›"; }
+[dir="rtl"] .slick-next:before { content: "‹"; }
+#home-tiles{
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 20px;
+  text-decoration-line: underline;
+}
+/*.home-tileshead h1{
+  margin: auto;
+  display: block;  
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  padding: 30px;
+  border: 1px dashed black;
+  background-color: blue;
+  box-shadow: 0 0 50px #3F0C1F;
+}*/
+/*#home-tileshead h1{
+  width: 400px;
+  text-align: center;
+  vertical-align: center;
+  background-color: red;
+}*/
+#room-fur-tile,#room-deluxe-tile{
+  height: 300px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #222;
+  overflow: hidden;
+}
+#room-fur-tile:hover, #room-deluxe-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#room-fur-tile {
+  /*background: url('../picture/ลงเวปจริง/ห้องพักเฟอร์นิเจอร์แบบที่ 1/pic3.jpg') no-repeat;*/
+  background: url('../picture/ลงเวปจริง/ห้องพักเฟอร์นิเจอร์แบบที่ 2/เตียง 2.jpg') no-repeat;
+  background-size: cover;
+  /*background-position: right top;*/
+}
+#room-deluxe-tile {
+  /*background: url('../picture/ลงเวปจริง/ห้องพักเฟอร์นิเจอร์แบบที่ 2/เตียง 2.jpg') no-repeat;*/
+  background: url('../picture/ลงเวปจริง/ห้องพักเฟอร์นิเจอร์แบบที่ 1/pic4.jpg') no-repeat;
+  background-size: cover;
+  /*background-position: right;*/
+}
+#room-deluxe-tile span, #room-fur-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  /*background-color: #afdb00;*/
+  color: #fff;
+  opacity: .8;
+}
+#map-tile span{
+  /*width: 100%*/
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: 97.5%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: white;
+}
+/*End main-content*/
+/*Footer*/
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  /*background-color: #222;*/
+  background-color: #afdb00;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#author{
+  margin-right: 4%;
+}
+#author,#email,#comment{
+  outline-style: none;
+  border: 1px solid #e3e2e2;
+  line-height: 20px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  height: 30px;
+  float: left;
+  color: black;
+}
+#comment{
+  height: 120px;
+}
+#commentform input[type="submit"]{
+  color: #454343;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 20px;
+  margin: 20px 0 40px 0;
+  outline-style: none;
+  border: 1px solid #454343;
+}
+#contactus p{
+  display: block;
+  /*background-color: black;*/
+  padding: 10px; 
+  /*border-style: solid;*/
+}
+.text-center{
+  width: 100%;
+  height: 25px;
+  background-color: black;
+  /*position: relative;
+  bottom: 25px;*/
+}
+/*End Footer*/
+
+/*about page*/
+#aboutmessage.jumbotron{
+  color: black;
+  opacity: 0.9;
+  font-size: 1.5em;
+  background-color: #e8e8e8;
+  box-shadow: 0 0 0px;
+  border: 2px none #3F0C1F;
+}
+.aboutlogo{
+  position: relative;
+  left: 20%;
+  top: -10px;
+}
+.aboutalign{
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  text-decoration: underline;
+  /*border-style: solid;*/
+}
+.aboutimage{
+  width: 70%;
+  height: 250px;
+  margin: 50px;
+}
+.aboutframe h2{
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  margin: -10px;
+}
+/*promotion page*/
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  color: black;
+}
+.promotionslide{
+  position: relative;
+  left: 0px;
+  height: 650px;
+  width: 100%;
+  /*background-repeat: repeat-y;*/
+  /*background-image: */
+  /*opacity: 1;*/
+}
+/*roomrate page*/
+#roomratetable{  
+  background-position: center;
+}
+/* Style the tab */
+div.tab {
+    margin: 0px;
+    position: relative;
+    top:-20px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: black;
+}
+
+/* Style the links inside the tab */
+div.tab a {    
+    float: left;
+    position: relative;
+    left: 40%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+
+table#roomratetable tr th,table#roomratetable tr td{
+  font-weight: bold;
+  font-size: 1.2em;
+  border: 1px solid #ddd; 
+  padding: 10px;
+  border-right: hidden;
+  border-left: hidden;
+}
+table#roomratetable tr th{
+  background-color: #e5e5e5; 
+}
+table#roomratetable tr:hover{
+  background-color: #ebefbf;
+}
+#roomratetopic h1{
+  color: black; 
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+
+}
+.furpic{
+  margin-bottom: 300px;
+  /*background-color: red;*/
+}
+
+.roomrateslideup{
+  height: 400px;
+  width: 75%;
+  vertical-align: middle;
+}
+#ver{
+  width: 50%;
+  position: relative;
+  left: 15%;
+}
+.roomrateslidedown{
+  height: 200px;
+  width: 90%;
+}
+.slider-for1,.slider-for2,.slider-for3{  
+  position: relative;
+  left: 13%;
+  padding: 10px;
+  vertical-align: center;
+  width: 100%;
+  height: 200px;  
+}
+.slider-nav1,.slider-nav2,.slider-nav3{
+  margin-bottom: 100px;
+  width: 100%;  
+  position: relative;
+  top: 220px;
+}
+#roomrateparagraph{
+  color: black;
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: left;
+}
+#roomrateparagraph h2{
+  font-size: 1.5em;
+}
+/*facility page*/
+/*.linkfacilitypage{  
+  border: 1px solid #ddd;   
+  background-color: #e5e5e5;
+  padding: 10px;
+  font-size: 1.5em; 
+  text-align: center;
+}*/
+/*.panel{
+  border: 3px solid black;
+}*/
+.panel-title a{
+  text-decoration: none;
+}
+.panel-heading:hover{
+  background-color: #ffdab9;
+}
+.facilitytabletopic{
+  background-color: #ebefbf;
+  padding: 20px;
+}
+.facilitytabletopic h1{
+  color: black; 
+  font-weight: bold;
+  /*font-size: 1.5em;*/
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+table#facilitytable{
+  margin-bottom: 50px;
+}
+table#facilitytable tr th{
+  /*border-collapse: collapse;*/
+  border: 1px solid #ddd; 
+  /*background-color: #e1dbe8; */
+  background-color: #e5e5e5;
+  padding: 10px;
+  font-size: 2em;
+  border-left: hidden;
+  /*color: green;*/
+  /*width: 100%;*/
+}
+table#facilitytable tr td {
+  /*margin-bottom: 50px; */
+  border: 1px solid #ddd;
+  border-right: hidden; 
+  border-left: hidden; 
+  padding: 20px;
+  font-size: 1.2em;
+}
+table#facilitytable tr:nth-child(odd){
+  background-color: #f2f2f2
+}
+.facilitypicture{
+  width: 75%;
+  height: 325px;
+  margin-top: 20px;
+}
+
+/*login page*/
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid black;
+  @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -8px; right: -8px; bottom: -8px; left: -8px;
+    z-index: -1;
+    background: rgba(black, .08);
+    border-radius: 4px;
+  }
+  h1 {
+    /*margin: -20px -20px 21px;*/
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;    
+    text-align: center;
+    text-shadow: 0 1px white;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 3px 3px 0 0;
+    margin: 10px;
+    @include linear-gradient(top, whiteffd, #eef2f5);
+    @include box-shadow(0 1px #f5f5f5);
+  }
+  .submit p{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    background-color: green;
+  }
+
+
